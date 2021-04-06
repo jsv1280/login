@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Muli', sans-serif;
+        }
+        .header {
+            align-items: center;
+            background-color: #21c08b;
+            color: white;
+            display: flex;
+            height: 100px;
+            justify-content: space-between;
+            top: 0px;
+            width: 100%;
+        }
+        .header__img {
+            margin-left: 30px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img class="header__img" src="assets/logo-platzi-video-BW2.png" alt="">
+    </header>
+    <section class="login">
+        <section class="login__container">
+            <h2>Sign in</h2>
+            <form class="login__container--form" action="">
+                <input class="input" type="text" placeholder="Email">
+                <input class="input" type="password" placeholder="Password">
+                <button class="button">Sign in</button>
+                <div class="login__container--remember">
+                    <label>
+                        <input type="checkbox" name="" id="cbox1" value="checkbox">
+                        Remember me
+                    </label>
+                    <a href="/">Forget my password</a>
+                </div>
+            </form>
+            <section class="login__container--social-media">
+                <div>
+                    <img src="assets/google-icon.png" alt="Google">Sign in with Google
+                </div>
+                <div>
+                    <img src="assets/twitter-icon.png" alt="Twitter">Sign in with Twitter
+                </div>
+            </section>
+            <p class="login__container--regiser">Doesn't have account <a href="/">Sign up</a></p>
+        </section>
+    </section>
+    <footer class="footer">
+        <a href="/">Terms of use</a>
+        <a href="/">Privacy Statement</a>
+        <a href="/">Help center</a>
+    </footer> 
+</body>
+</html>
